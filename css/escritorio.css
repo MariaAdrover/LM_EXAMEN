@@ -1,0 +1,194 @@
+body,html{height:100%;padding:0px;margin:0px;}
+/*body{background:url(../img/cielo.jpeg) no-repeat fixed center;}*/
+
+body {
+	font-family: Arial;
+	background: url(../img/señales2.jpg) repeat fixed left;
+}
+
+/*body img {opacity: 0.5;}*/
+
+#img1 {
+	z-index: 3;
+	position: fixed;
+	top:0;
+	right:1%;
+	display: block;
+	width: 30%;
+	height: 20%;
+}
+
+#img1 img {
+	float: right;
+	max-height: 100%;
+}
+
+#cabecera {
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	outline-style: solid;
+	outline-color: #333333;
+	outline-width: 1px;
+}
+
+#logo img {
+	float: left;
+	padding: 0.6%;
+}
+
+#logo {
+	background-color: white;
+	text-align: center;
+	height:100px;
+	display: block;
+
+}
+
+#menu {
+	text-align: center;
+}
+
+ul {
+	position: absolute;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 16px;
+	text-align: center;
+	/*color: white;*/
+}
+
+li a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+li a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: lightblue;
+    background-color: #111111;
+    text-decoration: none;
+}
+
+/*li a:active {
+    color: yellow;
+    background-color: red;
+    text-decoration: none;
+}*/
+
+#titulo {
+	text-align: center;
+	background-color: white;
+}
+
+form {
+	z-index: 1;
+	display: block;
+	position: absolute;
+	top: 24%;
+	left: 10%;
+	width: 80%;		
+	background: url(../img/cuadros.png) repeat  center;
+	background-color: white;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
+	
+}
+
+fieldset {
+	margin: 4%;
+	padding: 2%;
+}
+
+.pregunta {	
+	background-color: white;
+}
+
+#submit {
+	text-align: center;
+	background-color: white;
+}
+
+#botonSubmit {	
+	background-color: lightblue;
+}
+
+#pie {
+	z-index: 2;
+	position: fixed;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	padding: 0.5%;
+	background-color: #333333;
+	font-size: 0.8em;
+	color: white;
+}
+
+#infoMarco{
+	z-index: 1;
+	display: block;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 80%;	
+	height: 100%;
+	padding: 2%;
+	background: url(../img/cuadros.png) repeat  center;
+	background-color: white;
+	outline-style: solid;
+	outline-color: #333333;
+	outline-width: 2px;
+}
+
+#info {
+	background-color: white;
+	padding: 2%;
+	outline-style: solid;
+	outline-color: #333333;
+	outline-width: 2px;
+}
+
+#start {
+	z-index: 4;
+	display: block;
+	position: fixed;
+	top: 35%;
+	left: 30%;
+	display: block;
+	height: 20%;
+	width: 40%;
+	font-size: 3em;
+	background-color: yellow;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#start img {
+	max-height: 100%;
+	max-width:20%;
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE questions>
+
+<questions>
+	<question>
+		<type>text</type>
+		<title>¿De qué color es la L del cartel de principiante?</title>
+		<answer>blanco</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>Ud. Ha estacionado en línea su turismo en el arcén de una travesía insuficientemente iluminada, ¿qué luces debe dejar encendidas?</title>
+		<answer>no</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>Debido a un pinchazo sustituye una de las ruedas de su vehículo por la de uso temporal. ¿Cuántos kilómetros podrá circular en esas condiciones?</title>
+		<option>Tantos como sean necesarios siempre que dicha rueda no haya sido utilizada anteriormente.</option>
+		<option>Los que recomiende, como máximo, cada fabricante, y circulando a la velocidad que se indica en dicha rueda.</option> 
+		<option>No hay limitación de kilómetros porque se trata de una situación excepcional.</option>
+		<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	</question>
+	<question>
+		<type>select</type>
+		<title>En poblado, ¿está permitido usar las advertencias acústicas de su vehículo para advertir al conductor que circula delante que va a ser adelantado?</title>
+		<option>Sí, siempre que sea a intervalos cortos y el sonido emitido no sea estridente.</option>
+		<option>Sí, slavo prohibición expresa.</option> 
+		<option>No, porque está prohibido.</option>
+		<answer>3</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>Marca els nombres senars?</title>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+	</question>
+</questions>
