@@ -5,86 +5,90 @@
 <questions>
 	<question>
 		<type>text</type>
-		<title>¿De qué color es la L del cartel de principiante?</title>
-		<answer>blanco</answer>
+		<title>1. ¿Cómo te llamas?</title>
+		<answer>++++++++++++++++</answer> // Se aceptará cualquier nombre, contestando "Bonito nombre"
 	</question>
 	<question>
 		<type>text</type>
-		<title>Ud. Ha estacionado en línea su turismo en el arcén de una travesía insuficientemente iluminada, ¿qué luces debe dejar encendidas?</title>
-		<answer>no</answer>
+		<title>2. En Alabama, ¿está permitido circular en dirección contraria si el vehículo tiene adherida una linterna iluminando la calzada? Coontesta si o no.</title>
+		<answer>si</answer>
 	</question>
 	<question>
 		<type>select</type>
-		<title>Debido a un pinchazo sustituye una de las ruedas de su vehículo por la de uso temporal. ¿Cuántos kilómetros podrá circular en esas condiciones?</title>
-		<option>Tantos como sean necesarios siempre que dicha rueda no haya sido utilizada anteriormente.</option>
-		<option>Los que recomiende, como máximo, cada fabricante, y circulando a la velocidad que se indica en dicha rueda.</option> 
-		<option>No hay limitación de kilómetros porque se trata de una situación excepcional.</option>
-		<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
-	</question>
-	<question>
-		<type>select</type>
-		<title>En poblado, ¿está permitido usar las advertencias acústicas de su vehículo para advertir al conductor que circula delante que va a ser adelantado?</title>
-		<option>Sí, siempre que sea a intervalos cortos y el sonido emitido no sea estridente.</option>
-		<option>Sí, slavo prohibición expresa.</option> 
-		<option>No, porque está prohibido.</option>
+		<title>3. A partir de esta señal, circular como mínimo a 30 km/h...</title>
+		<option>... es recomendable.</option>
+		<option>... está prohibido.</option>
+		<option>... es obligatorio.</option>
+		<option>¿Hay radares?</option>
+		<option>¿Qué señal?</option>
 		<answer>3</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
 	</question>
 	<question>
-		<type>multiple</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
-		<answer>1</answer>
-		<answer>3</answer>
+		<type>select</type>
+		<title>4. ¿Sabrías circular correctamente por esta rotonda? Indica cual de las siguientes respuestas es falsa:</title>
+		<option>Por supuesto, sin problema</option>
+		<option>Mayormente creo que no.</option> 
+		<option>No mucho.</option> 
+		<option>...</option>
+		<answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
 	</question>
 	<question>
 		<type>multiple</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
+		<title>5. Señala las verdaderas:</title>
+		<option>En Francia es obligatorio llevar un alcoholímetro en el coche.</option>
+		<option>En Georgia (EEUU) es ilegal escupir desde un automóvil en movimiento.</option> 
+		<option>En Georgia (EEUU) es ilegal escupir desde un camión en movimiento.</option>
 		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>6. Señala las verdaderas:</title>
+		<option>En Kentucky, está prohibido que las mujeres conduzcan en bañador en cualquier caso.</option>
+		<option>En Kentucky, las mujeres pueden conducir en bañador siempre y cuando lleven consigo un objeto de defensa personal o viajen acompañadas de dos policías.</option> 
+		<option>En Rusia puedes ser multado por llevar el vehículo sucio.</option>
+		<answer>2</answer>
 		<answer>3</answer>
 	</question>
 	<question>
 		<type>checkbox</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
-		<answer>1</answer>
-		<answer>3</answer>
+		<title>7. En Alemania... (señala las verdaderas)</title>
+		<option>... es obligatorio llevar ropa y zapatos para conducir.</option>
+		<option>... conducir sin ropa y zapatos no  supone una infracción.</option> 
+		<option>... no llevar zapatos para conducir supone una infracción.</option> 
+		<option>... en caso de accidente, si el conductor va descalzo, puede llegar a perder la cobertura de su póliza.</option>
+		<answer>2</answer>
+		<answer>4</answer>
 	</question>
 	<question>
 		<type>checkbox</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
+		<title>8. Y en España te pueden multar por... (señala las verdaderas)</title>
+		<option>Conducir sin camiseta.</option>
+		<option>Conducir descalzo, con tacones o con chanclas.</option> 
+		<option>Conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
+		<option>Apoyar el codo en la ventanilla.</option>
+		<option>Sacar el brazo por la ventanilla para saludar.</option>
 		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+		<answer>5</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>9. En California, ¿cuál es la velocidad máxima a la que está permitido saltar de un coche en marcha?</title>
+		<option>20 km/h</option>
+		<option>50 km/h</option> 
+		<option>100 km/h</option> 
+		<option>Puedes saltar a la velocidad que quieras.</option>
 		<answer>3</answer>
 	</question>
 	<question>
 		<type>radio</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
-		<answer>1</answer>
-	</question>
-	<question>
-		<type>radio</type>
-		<title>Marca els nombres senars?</title>
-		<option>1</option>
-		<option>2</option> 
-		<option>3</option> 
-		<option>4</option>
+		<title>10. En Minnesota (EEUU), puedes circular con tu gorila siempre y cuando...</title>
+		<option>... el gorila viaje en el asiento del copiloto.</option>
+		<option>... el gorila viaje en los asientos traseros.</option> 
+		<option>No está permitido en ningún caso.</option> 
+		<option>En cualquier caso, si el gorila tiene ya una edad avanzada.</option>
 		<answer>1</answer>
 	</question>
 </questions>
