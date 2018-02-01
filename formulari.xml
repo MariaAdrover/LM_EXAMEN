@@ -10,7 +10,7 @@
 	</question>
 	<question>
 		<type>text</type>
-		<title>2. En Alabama, ¿está permitido circular en dirección contraria si el vehículo tiene adherida una linterna iluminando la calzada? Coontesta si o no.</title>
+		<title>2. En Alabama, ¿está permitido circular en dirección contraria si el vehículo tiene adherida una linterna iluminando la calzada? Contesta si o no.</title>
 		<answer>si</answer>
 	</question>
 	<question>
@@ -53,21 +53,21 @@
 	<question>
 		<type>checkbox</type>
 		<title>7. En Alemania... (señala las verdaderas)</title>
-		<option>... es obligatorio llevar ropa y zapatos para conducir.</option>
-		<option>... conducir sin ropa y zapatos no  supone una infracción.</option> 
-		<option>... no llevar zapatos para conducir supone una infracción.</option> 
-		<option>... en caso de accidente, si el conductor va descalzo, puede llegar a perder la cobertura de su póliza.</option>
+		<option>  ... es obligatorio llevar ropa y zapatos para conducir.</option>
+		<option>  ... conducir sin ropa y zapatos no  supone una infracción.</option> 
+		<option>  ... no llevar zapatos para conducir supone una infracción.</option> 
+		<option>  ... en caso de accidente, si el conductor va descalzo, puede llegar a perder la cobertura de su póliza.</option>
 		<answer>2</answer>
 		<answer>4</answer>
 	</question>
 	<question>
 		<type>checkbox</type>
 		<title>8. Y en España te pueden multar por... (señala las verdaderas)</title>
-		<option>Conducir sin camiseta.</option>
-		<option>Conducir descalzo, con tacones o con chanclas.</option> 
-		<option>Conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
-		<option>Apoyar el codo en la ventanilla.</option>
-		<option>Sacar el brazo por la ventanilla para saludar.</option>
+		<option>  ... conducir sin camiseta.</option>
+		<option>  ... conducir descalzo, con tacones o con chanclas.</option> 
+		<option>  ... conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
+		<option>  ... apoyar el codo en la ventanilla.</option>
+		<option>  ... sacar el brazo por la ventanilla para saludar.</option>
 		<answer>1</answer>
 		<answer>2</answer>
 		<answer>3</answer>
@@ -75,20 +75,20 @@
 	</question>
 	<question>
 		<type>radio</type>
-		<title>9. En California, ¿cuál es la velocidad máxima a la que está permitido saltar de un coche en marcha?</title>
-		<option>20 km/h</option>
-		<option>50 km/h</option> 
-		<option>100 km/h</option> 
-		<option>Puedes saltar a la velocidad que quieras.</option>
+		<title>9. ¿Cuál es la velocidad máxima a la que está permitido saltar de un coche en marcha en California?</title>
+		<option>  20 km/h</option>
+		<option>  50 km/h</option> 
+		<option>  100 km/h</option> 
+		<option>  Puedes saltar a la velocidad que quieras.</option>
 		<answer>3</answer>
 	</question>
 	<question>
 		<type>radio</type>
 		<title>10. En Minnesota (EEUU), puedes circular con tu gorila siempre y cuando...</title>
-		<option>... el gorila viaje en el asiento del copiloto.</option>
-		<option>... el gorila viaje en los asientos traseros.</option> 
-		<option>No está permitido en ningún caso.</option> 
-		<option>En cualquier caso, si el gorila tiene ya una edad avanzada.</option>
+		<option>  ... el gorila viaje en el asiento del copiloto.</option>
+		<option>  ... el gorila viaje en los asientos traseros.</option> 
+		<option>  No está permitido en ningún caso.</option> 
+		<option>  En cualquier caso, si el gorila tiene ya una edad avanzada.</option>
 		<answer>1</answer>
 	</question>
 </questions>
