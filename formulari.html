@@ -7,93 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type="text/css" media='screen and (min-width: 771px)' href='css/escritorio.css'>
     <link rel='stylesheet' type="text/css" media='screen and (max-width: 770px)' href='css/movil.css'>
+	<script src="js/js.js"></script>
 </head>
 <body>
-	<div id = 'img1'><img src='img/img1.png'/></div>
-	<div id = 'cabecera'>
-	<div id = 'logo'><img src='img/img3.jpg'/>APRENDE A CONDUCIR</div>	
-	<ul>
+	<div id = 'img1'><img src='img/img1.jpg'/></div>
+	<div id = 'logo'><img src='img/logo.png'/>APRENDE A CONDUCIR</div>
+	<div id = 'img3'><img src='img/img3.png'/></div>
+	<div id = 'cabecera'></div>
+	<ul id = 'barra'>
 		<li><a href="file:///C:/Users/miaad/Desktop/Llenguatge%20de%20marques/LM_PRACTICA5/index.html">INSTRUCCIONES</a></li>
 		<li><a href="file:///C:/Users/miaad/Desktop/Llenguatge%20de%20marques/LM_PRACTICA5/formulari.html">EXAMEN</a></li>
-	</ul>		
-	<div id = 'titulo'>Titulo</div>
-	</div>
+	</ul>
     <form>
 		<fieldset class='pregunta'>
-			1. Escribe tal<br/>
-			<input type = 'text' name = 'p1'/> escribe tal aqui<br/>
+			<h4 class = 'title'></h4>
+			<input type = 'text'/>
 		</fieldset>
 		<fieldset class='pregunta'>
-			2. Escribe pascual<br/>
-			<input type = 'text' name = 'p2'/><br/>
+			<h4 class = 'title'></h4>
+			<input type = 'text'/>
+		</fieldset>
+		<fieldset class='pregunta' id = 'p3'>
+			<h4 class = 'title'></h4>
+			<select>
+				<option class = "respuesta">Selecciona la respuesta correcta...</option>
+			</select >
+			<img src='img/minimo30.jpeg'/>
+		</fieldset>
+		<fieldset class='pregunta' id = 'p4'>
+			<h4 class = 'title'></h4>
+			<div>
+			<select>
+				<option class = "respuesta">Selecciona la respuesta correcta...</option>
+			</select>
+			<img src='img/rotonda1.jpg'/>
 		</fieldset>
 		<fieldset class='pregunta'>
-			3. Elige<br/>
-			<select name = 'p3'>
-				<option value = 'tu'>Tú</option>
-				<option value = 'yo'>Yo</option>
-				<option value = 'el'>Él</option>
-				<option value = 'ella'>Ella</option>
-			</select ><br/>
+			<h4 class = 'title'></h4>
+			<select multiple='multiple'></select>
 		</fieldset>
 		<fieldset class='pregunta'>
-			4. Elige otra vez<br/>
-			<select name = 'p4'>
-				<option value = 'tu'>Tú</option>
-				<option value = 'yo'>Yo</option>
-				<option value = 'el'>Él</option>
-				<option value = 'ella'>Ella</option>
-			</select><br/>
+			<h4 class = 'title'></h4>
+			<select multiple='multiple'></select>
 		</fieldset>
 		<fieldset class='pregunta'>
-			5. Elige las que quieras<br/>
-			<select name = 'p5' multiple='multiple'>
-				<option value = 'tu'>Tú</option>
-				<option value = 'yo'>Yo</option>
-				<option value = 'el'>Él</option>
-				<option value = 'ella'>Ella</option>
-			</select><br/>
+			<h4 class = 'title'></h4>
 		</fieldset>
 		<fieldset class='pregunta'>
-			6. Elige las que quieras otra vez<br/>
-			<select name = 'p6' size='3' multiple='multiple'>
-				<option value = 'tu' name ='p6a' selected='selected'>Tú</option>
-				<option value = 'yo' name ='p6b' selected='selected'>Yo</option>
-				<option value = 'el' name ='p6c'>Él</option>
-				<option value = 'ella' name ='p6d'>Ella</option>
-			</select><br/>
+			<h4 class = 'title'></h4>
 		</fieldset>
 		<fieldset class='pregunta'>
-			7. Aquí también elige las que quieras<br/>
-			<input type="checkbox" id="r" name = 'p7a' value="red"><label for="r">Red</label><br/>
-			<input type="checkbox" id="g" name = 'p7b' value="green"><label for="g">Green</label><br/>
-			<input type="checkbox" id="c" name = 'p7c' value="cyan"><label for="c">Cyan</label><br/>
+			<h4 class = 'title'></h4>
 		</fieldset>
 		<fieldset class='pregunta'>
-			8. La última vez que eliges las que quieras<br/>
-			<input type="checkbox" id="a" value="amarillo"><label for="a">Amarillo</label><br/>
-			<input type="checkbox" id="b" value="blanco"><label for="b">Blanco</label><br/>
-			<input type="checkbox" id="n" value="negro"><label for="n">Negro</label><br/>
-		</fieldset>
-		<fieldset class='pregunta'>
-			9. Aquí elige sólo una<br/>
-			<input type = 'radio' id='p9a' name = 'p9' value = 'one'><label for="p9a">One</label><br/>
-			<input type = 'radio' id='p9b' name = 'p9' value = 'two'><label for="p9b">Two</label><br/>
-			<input type = 'radio' id='p9c' name = 'p9' value = 'three'><label for="p9c">Three</label><br/>
-		</fieldset>
-		<fieldset class='pregunta'>
-			10. ÚLTIMA PREGUNTA :-)<br/>
-			<input type = 'radio' name = 'p10' value = 'preparados'>Preparados<br/>
-			<input type = 'radio' name = 'p10' value = 'listos'>Listos<br/>
-			<input type = 'radio' name = 'p10' value = 'ya'>YA<br/>
+			<h4 class = 'title'></h4>
 		</fieldset>
 		<fieldset id='submit'>		
 			<input type = 'submit' id = 'botonSubmit' value = 'EVALUAR'>
 		</fieldset>
 	</form>
-	<div><br/>
-	sdfewfwefwefkeop
-	<br/></div>	
 	<div id = 'pie'>&#169;2018 Maria Adrover</div>
 	<div id = 'start'><img src='img/img2.png'/><b> EMPEZAR </b><img src='img/img2.png'/></div>
 </body>
