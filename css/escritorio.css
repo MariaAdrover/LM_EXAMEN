@@ -12,26 +12,37 @@ body {
 #img1 {
 	z-index: 3;
 	position: fixed;
-	top:2%;
+	top:1%;
 	left:1%;
-	width: 30%;
-	height: 12%;
+	width: 6%;
 }
 
 #img1 img {
-	height:100%;
+	width:100%;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-#logo{
+#img2 {
+	z-index: 3;
+	position: fixed;
+	top:1%;
+	left:9%;
+	width: 6%;
+}
+
+#img2 img {
+	width:100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*#logo{
 	z-index: 4;
 	position: fixed;
 	top:0;
 	left:35%;
-	width:30%;
-	height: 20%;
-	background-color: white;
+	width:35%;
 	text-align: center;
 	font-size: 2.8vw;
 }
@@ -40,6 +51,22 @@ body {
 	max-width:60%;
 	max-height: 100%;
 	float: left;
+}*/
+
+#logo {
+	z-index: 4;
+	position: fixed;
+	top:2%;
+	left:18%;
+	width:55%;
+	padding: 1%;
+	text-align: center;
+	font-size: 3.8vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	background-color: white;
+	
 }
 
 #img3 {
@@ -47,14 +74,12 @@ body {
 	position: fixed;
 	top:1%;
 	right:1%;
-	width: 30%;
-	height: 24%;	
+	width: 22%;	
 }
 
 #img3 img {
-	height:100%;
+	width:100%;
 	max-width: 100%;
-	max-height: 100%;
 	float: right;
 }
 
@@ -64,7 +89,7 @@ body {
 	top: 0;
 	width: 100%;
 	height: 16%;
-	background-color: grey;
+	background: url(../img/cuadros.png) repeat  center;
 }
 
 #menu {
@@ -123,13 +148,14 @@ li a:hover {
 	background-color: white;
 }
 
-form {
+form, #infoMarco {
 	z-index: 1;
 	display: block;
 	position: absolute;
-	top: 24%;
-	left: 10%;
-	width: 80%;		
+	top: 27%;
+	left: 4%;
+	width: 88%;	
+	padding: 2%;
 	background: url(../img/cuadros.png) repeat  center;
 	background-color: white;
 	border-style: solid;
@@ -139,18 +165,30 @@ form {
 	
 }
 
-fieldset {
+h1 {
+	text-align: center;
+}
+
+fieldset, #info {
 	margin: 4%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 	padding: 2%;
 	border-style: solid;
 	border-color: #333333;
 	border-width: 2px;
 	border-radius: 10px;
+	background-color: white;
+	max-width: 100%; 
 }
 
-.pregunta {	
-	background-color: white;
-	max-width: 100%; /* No funciona...*/
+input[type = 'text']{
+	width: 100%;
+}
+
+select {
+	width: 100%;
+	overflow: auto;
 }
 
 #p3 img {
@@ -163,7 +201,13 @@ fieldset {
 	float: right;
 }
 
-select {max-width: 100%;}
+#p3 select {
+	width: 74%;
+}
+
+#p4 select {
+	width: 40%;
+}
 
 #submit {
 	text-align: center;
@@ -185,7 +229,7 @@ select {max-width: 100%;}
 	font-size: 0.8em;
 	color: white;
 }
-
+/*
 #infoMarco{
 	z-index: 1;
 	display: block;
@@ -208,7 +252,7 @@ select {max-width: 100%;}
 	outline-style: solid;
 	outline-color: #333333;
 	outline-width: 2px;
-}
+}*/
 
 #start {
 	z-index: 4;

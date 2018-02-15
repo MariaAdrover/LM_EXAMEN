@@ -10,15 +10,75 @@ body {
 #img1 {
 	z-index: 3;
 	position: fixed;
-	top:0;
-	right:1%;
-	display: block;
-	height: 14%;
+	top:1%;
+	left:1%;
+	width: 15%;
 }
 
 #img1 img {
-	float: right;
+	width:100%;
+	max-width: 100%;
 	max-height: 100%;
+}
+
+#img2 {
+	z-index: 3;
+	position: fixed;
+	top:1%;
+	right:1%;
+	width: 15%;
+}
+
+#img2 img {
+	width:100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*#logo{
+	z-index: 4;
+	position: fixed;
+	top:0;
+	left:35%;
+	width:35%;
+	text-align: center;
+	font-size: 2.8vw;
+}
+
+#logo img {
+	max-width:60%;
+	max-height: 100%;
+	float: left;
+}*/
+
+#logo {
+	z-index: 4;
+	position: fixed;
+	top:3%;
+	left:21%;
+	width:55%;
+	padding: 1%;
+	text-align: center;
+	font-size: 6.5vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color: white;
+	
+}
+
+#img3 {
+	z-index: 4;
+	position: fixed;
+	top:15%;
+	right:-3%;
+	width: 35%;	
+}
+
+#img3 img {
+	width:100%;
+	max-width: 100%;
+	float: right;
 }
 
 #cabecera {
@@ -26,22 +86,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	outline-style: solid;
-	outline-color: #333333;
-	outline-width: 1px;
-}
-
-#logo img {
-	float: left;
-	padding: 0.6%;
-}
-
-#logo {
-	background-color: white;
-	text-align: center;
-	height:100px;
-	display: block;
-
+	height: 16%;
+	background: url(../img/cuadros.png) repeat  center;
 }
 
 #menu {
@@ -49,14 +95,15 @@ body {
 }
 
 ul {
-	position: absolute;
+	z-index:3;
+	position: fixed;
+	top: 16%;
 	width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding:0;
 	overflow: hidden;
 	background-color: #333333;
-	font-size: 3.3vw;
 }
 
 li {
@@ -99,29 +146,61 @@ li a:hover {
 	background-color: white;
 }
 
-form {
+form, #infoMarco {
 	z-index: 1;
 	display: block;
 	position: absolute;
-	top: 24%;
-	left: 10%;
-	width: 80%;		
+	top: 27%;
+	left: 4%;
+	width: 85%;	
+	padding: 2%;
 	background: url(../img/cuadros.png) repeat  center;
 	background-color: white;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
+	
 }
 
-fieldset {
+h1 {
+	text-align: center;
+}
+
+fieldset, #info {
 	margin: 4%;
-	padding: 2%;
-}
-
-.pregunta {	
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 3%;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
 	background-color: white;
+	max-width: 100%; 
 }
 
-.pregunta img {
-	width: 20%;
-	float: right;
+input[type = 'text']{
+	width: 99%;
+	margin-bottom:3%;
+}
+
+select {
+	width: 100%;
+	overflow: auto;
+}
+
+#p3 {
+	text-align: center;
+}
+
+#p3 img {
+	height: 90%;
+}
+
+#p4 img {
+	width: 100%;
+	margin-top:4%;
 }
 
 #submit {
@@ -144,18 +223,21 @@ fieldset {
 	font-size: 0.8em;
 	color: white;
 }
-
+/*
 #infoMarco{
 	z-index: 1;
 	display: block;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 10%;
 	width: 80%;	
 	height: 100%;
 	padding: 2%;
 	background: url(../img/cuadros.png) repeat  center;
 	background-color: white;
+	outline-style: solid;
+	outline-color: #333333;
+	outline-width: 2px;
 }
 
 #info {
@@ -164,5 +246,28 @@ fieldset {
 	outline-style: solid;
 	outline-color: #333333;
 	outline-width: 2px;
+}*/
+
+#start {
+	z-index: 4;
+	display: block;
+	position: fixed;
+	top: 35%;
+	left: 30%;
+	display: block;
+	height: 20%;
+	width: 40%;
+	font-size: 3em;
+	background-color: yellow;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
 }
 
+#start img {
+	max-height: 100%;
+	max-width:20%;
+}
