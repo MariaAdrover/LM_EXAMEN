@@ -1,6 +1,6 @@
 var xhttp = new XMLHttpRequest();
 
-var url = "https://rawgit.com/MariaAdrover/LM_EXAMEN/master/formulari.xml";
+var url = "https://cdn.jsdelivr.net/gh/MariaAdrover/LM_EXAMEN/formulari.xml";
 var urlJavi = 'https://rawgit.com/shamshir/Prueba/master/questions.xml';
 
 var xmlDoc = null;
@@ -148,7 +148,7 @@ function llenarSelect (optionXML, pos) {
 /*
 
 var xmlDoc = null;
-var url = "https://rawgit.com/MariaAdrover/LM_EXAMEN/master/formulari.xml";
+var url = "https://cdn.jsdelivr.net/gh/MariaAdrover/LM_EXAMEN/formulari.xml";
 var xhttp = new XMLHttpRequest();
 var urlJavi = 'https://rawgit.com/shamshir/Prueba/master/questions.xml';
 

@@ -11,7 +11,7 @@ xhttp.onreadystatechange = function() {
  }
 };
 
-xhttp.open("GET", "https://rawgit.com/MariaAdrover/LM_EXAMEN/master/formulari.xml", true); //localhost no ha de funcionar
+xhttp.open("GET", "https://cdn.jsdelivr.net/gh/MariaAdrover/LM_EXAMEN/formulari.xml", true); //localhost no ha de funcionar
 xhttp.send();
 
 
